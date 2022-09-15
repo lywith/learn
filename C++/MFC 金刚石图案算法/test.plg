@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: test - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\a1838\AppData\Local\Temp\RSP9A29.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/test.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\test\test.cpp"
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\test\testView.cpp"
+"D:\Program Files (x86)\Microsoft Visual Studio\MyProjects\test\P2.cpp"
+]
+Creating command line "cl.exe @C:\Users\a1838\AppData\Local\Temp\RSP9A29.tmp" 
+Creating temporary file "C:\Users\a1838\AppData\Local\Temp\RSP9A2A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/test.pdb" /debug /machine:I386 /out:"Debug/test.exe" /pdbtype:sept 
+".\Debug\test.obj"
+".\Debug\StdAfx.obj"
+".\Debug\MainFrm.obj"
+".\Debug\testDoc.obj"
+".\Debug\testView.obj"
+".\Debug\test.res"
+".\Debug\InputDlg.obj"
+".\Debug\P2.obj"
+]
+Creating command line "link.exe @C:\Users\a1838\AppData\Local\Temp\RSP9A2A.tmp"
+<h3>Output Window</h3>
+Compiling...
+P2.cpp
+Generating Code...
+Compiling...
+test.cpp
+testView.cpp
+Generating Code...
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/test.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\test.sbr" ".\Debug\MainFrm.sbr" ".\Debug\testDoc.sbr" ".\Debug\testView.sbr" ".\Debug\InputDlg.sbr" ".\Debug\P2.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+test.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
